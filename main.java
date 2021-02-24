@@ -44,7 +44,7 @@ class Solution {
         emails[i]=c;
        
         }
-
+        // sort + compare adjacent elements = count
         int count = x;
         Arrays.sort(emails);
         for(int i=0;i<x-1;i++){
